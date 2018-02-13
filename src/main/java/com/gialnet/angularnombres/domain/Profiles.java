@@ -1,8 +1,19 @@
-package com.gialnet.angularnombres;
+package com.gialnet.angularnombres.domain;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Profiles {
+
+    @Id
     private long id;
+
+    @Column
     private String content;
+
+    @Column
     private int age;
 
     public Profiles(long id, String content, int age) {

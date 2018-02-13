@@ -1,5 +1,6 @@
-package com.gialnet.angularnombres;
+package com.gialnet.angularnombres.controler;
 
+import com.gialnet.angularnombres.domain.Profiles;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
