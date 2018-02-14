@@ -1,4 +1,4 @@
-package com.gialnet.angularnombres.domain;
+package com.gialnet.bootregantes.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

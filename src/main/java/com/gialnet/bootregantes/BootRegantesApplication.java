@@ -1,12 +1,12 @@
-package com.gialnet.angularnombres;
+package com.gialnet.bootregantes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AngularNombresApplication {
+public class BootRegantesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AngularNombresApplication.class, args);
+		SpringApplication.run(BootRegantesApplication.class, args);
 	}
 }

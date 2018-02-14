@@ -1,12 +1,9 @@
-package com.gialnet.angularnombres.domain;
+package com.gialnet.bootregantes.domain;
 
 import lombok.Data;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
-import javax.annotation.sql.DataSourceDefinition;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
 

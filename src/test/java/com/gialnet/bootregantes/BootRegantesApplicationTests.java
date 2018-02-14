@@ -1,4 +1,4 @@
-package com.gialnet.angularnombres;
+package com.gialnet.bootregantes;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class AngularNombresApplicationTests {
+public class BootRegantesApplicationTests {
 
 	@Test
 	public void contextLoads() {
