@@ -7,4 +7,6 @@ import java.util.List;
 public interface EstanquesRepository extends CrudRepository<Estanques, String> {
 
     List<Estanques> findAll();
+    Estanques findOne(String codigo);
+
 }

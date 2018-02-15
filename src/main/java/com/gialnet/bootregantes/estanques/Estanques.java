@@ -28,6 +28,7 @@ public class Estanques implements Serializable {
     private String horas;
     @Column
     private String anejo;
+
     @Column
     private String ordenriego;
 

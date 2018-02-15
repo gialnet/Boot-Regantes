@@ -33,12 +33,7 @@ public class FincasController {
     @RequestMapping(value = "/addfinca", method = RequestMethod.POST)
     public ResponseEntity AddFinca(@RequestBody Fincas fincas) {
 
-        try {
-            fincasRepository.save(fincas);
-        } catch (Exception e)
-        {
-            return  new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+        fincasRepository.save(fincas);
 
         return  new ResponseEntity(HttpStatus.OK);
     }
