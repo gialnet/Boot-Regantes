@@ -13,6 +13,7 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @RestController
+@RequestMapping("/estanques")
 public class EstanquesController {
 
 

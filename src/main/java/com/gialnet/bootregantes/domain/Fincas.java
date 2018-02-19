@@ -13,25 +13,7 @@ public class Fincas  implements Serializable {
 
     //@GeneratedValue
     @Id
-    private Long id;
-
-    @Column
-    private String title;
-
-    public Fincas() {
-    }
-
-    public Fincas(Long id, String title) {
-        this.id = id;
-        this.title = title;
-    }
+    private String codigo;
 
 
-    @Override
-    public String toString() {
-        return "Fincas{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                '}';
-    }
 }
